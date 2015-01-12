@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 12px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+p {
+  padding-top: 1em;
+}
+
+.title {
+  background-color: #33bebe;
+  color: #fff;
+  font-size: 3em;
+  padding: 1em 0 0 0.5em;
+  text-transform: uppercase;
+}
+
+.app {
+  clear: both;
+  padding-top: 2em;
+}
+
+.screenshot {
+  float: left;
+  max-width: 400px;
+  width: 40%;
+}
+
+.description {
+  color: #7c8b88;
+  float: left;
+  font-size: 2em;
+  margin-top: 0;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-top: 0;
+  width: 60%;
+}
+
+.description p:first-child {
+  padding-top: 0;
+}
